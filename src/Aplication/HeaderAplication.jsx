@@ -13,7 +13,7 @@ class HeaderAplication extends Component {
       <div className="col-md-8">
         <HeaderComponent />
       </div>
-      <div className="col-md-2"><a><img className="img-fluid" src='assets/images/login_signup.PNG' /></a></div>
+      <div className="col-md-2"><a><img className="img-fluid" src='assets/images/login_signup.png' /></a></div>
       </div>
       </section>
       <header id="header">
