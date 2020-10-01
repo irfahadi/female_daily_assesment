@@ -1,8 +1,9 @@
 import React,{ input } from 'react';
 import { FaSistrix } from 'react-icons/fa';
 
+
 const SearchBar = ({keyword,setKeyword}) => {
-    const BarStyling = {width:"55rem",background:"#F2F1F9", border:"none", padding:"0.5rem",margin:"0.5rem"};
+    const BarStyling = {width:"40rem",background:"#F2F1F9", border:"none", padding:"0.5rem",margin:"0.5rem"};
     return (
       <input 
        style={BarStyling}
@@ -14,7 +15,7 @@ const SearchBar = ({keyword,setKeyword}) => {
     );
   }
 
-const HeaderComponent = () => {
+const SearchComponent = () => {
     return (
       <>
         <SearchBar input={input} 
@@ -25,4 +26,4 @@ const HeaderComponent = () => {
   
 
 
-export default HeaderComponent;
+export default SearchComponent

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HeaderComponent from '../Component/HeaderComponent';
-
+import SearchComponent from '../Component/SearchComponent';
+import SideBarComponent from "../Component/SidebarComponent";
 
 
 class HeaderAplication extends Component {
@@ -9,9 +9,15 @@ class HeaderAplication extends Component {
         <div>
     <section id="topbar" >
       <div className="row">
-      <div className="col-md-2"><img  src='assets/images/title2.png' /></div>
-      <div className="col-md-8">
-        <HeaderComponent />
+      <div className="col-md-1">
+      <SideBarComponent pageWrapId={"page-wrap"} />
+      <div id="page-wrap">
+      {/* <h1>Click to show menu</h1> */}
+      </div>
+      </div>
+      <div className="col-md-2"><img  src='assets/images/title.png' /></div>
+      <div className="col-md-7">
+        <SearchComponent />
       </div>
       <div className="col-md-2"><a><img className="img-fluid" src='assets/images/login_signup.png' /></a></div>
       </div>
